@@ -1,20 +1,26 @@
+/* Importando fuente Inter desde google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
-    background-color: white;
+/* Definiendo color de fondo de la pagina */
 
+body {
+    background-color: #F3F5FC;
 }
+/* Dimensiones del logo */
 
 .logo {
     padding-top: 40px;
     padding-left: 84px;
 }
 
-.ingreseTextoAqui {
+/* Estilo para la entrada de texto */
+
+.textoEntrada {
     position: absolute;
-    width: 577px;
-    height: 48px;
-    left: 240px;
+    width: 710px;
+    height: 250px;
+    left: 140px;
     top: 168px;
     font-family: 'Inter';
     font-style: normal;
@@ -27,34 +33,175 @@ body {
     outline: none;
 }
 
-textarea::placeholder { /* Modifica color del placeholder */
-  color: #0A3871;  
+/* Modifica color del texto placeholder */
+
+textarea::placeholder { 
+    color: #0A3871;  
 }
 
-.minusculas {
-/* Solo letras minúsculas y sin acentos */
+.Rectangle1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    left: 900px;
+    top: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.Rectangle1_texto1 {
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.Rectangle1_texto2 {
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.munieco {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 40px;
+    top: 50px;
+}
+
+.Frame5 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+.Frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: 140px;
+    top: 450px;
+}
+
+.disclaimer {
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.Frame3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 140px;
+    top: 500px;
+}
+
+.btn_en {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 352px;
+    height: 57px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn_en:hover {
+    background: #072B61;
+    cursor: pointer;
+}
+
+.btn_en_texto {
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.btn_de {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 352px;
+    height: 57px;
+    background: #EFF1FA;;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn_de:hover {
+    background: #E5E5E5;
+    cursor: pointer;
+}
 
 
-width: 205px;
-height: 18px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
-/* identical to box height, or 18px */
-
-
-/* Gray/gray-400 */
-
-color: #495057;
-
-opacity: 0.8;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.btn_de_texto {
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
 }
