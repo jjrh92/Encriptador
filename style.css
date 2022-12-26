@@ -39,6 +39,18 @@ textarea::placeholder {
     color: #0A3871;  
 }
 
+.textoSalida {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
 .Rectangle1 {
     display: flex;
     flex-direction: row;
@@ -189,8 +201,6 @@ textarea::placeholder {
     cursor: pointer;
 }
 
-
-
 .btn_de_texto {
     width: 280px;
     height: 19px;
@@ -205,3 +215,4 @@ textarea::placeholder {
     order: 0;
     flex-grow: 1;
 }
+

@@ -17,14 +17,15 @@
     <main>
 
         <div class="containertextoEntrada">
-            <textarea class="textoEntrada" placeholder="Ingrese el texto aqui." autofocus></textarea>
+            <textarea id="textoEntrada" class="textoEntrada" placeholder="Ingrese el texto aqui" autofocus></textarea>
         </div>
 
         <div class="containertextoSalida">
             <div class="Rectangle1">
                 <div class="textoSalida">
+                    <p class="textoConvertido"></p>
                 </div>
-                <div class="Frame5">
+                <div id="Frame5" class="Frame5">
                     <img class="munieco" src="./img/munieco.svg" alt="Imagen de una persona con una lupa">
                     <p class="Rectangle1_texto1">Ningún Mensaje fue encontrado.</p>
                     <p class="Rectangle1_texto2">Ingresa el texto que desees encriptar o descencriptar.</p>
@@ -39,11 +40,11 @@
 
         <div class="Frame3">
 
-            <button class="btn_en">
+            <button id="botonEncriptar" class="btn_en">
                 <p class="btn_en_texto">Encriptar</p>
             </button>
 
-            <button class="btn_de">
+            <button id="botonDesencriptar" class="btn_de">
                 <p class="btn_de_texto">Desencriptar</p>
             </button>
         </div>
