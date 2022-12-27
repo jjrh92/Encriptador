@@ -14,7 +14,7 @@ body {
     padding-left: 84px;
 }
 
-/* Estilo para la entrada de texto */
+/* Estilo para la entrada y salida de texto */
 
 .textoEntrada {
     position: absolute;
@@ -33,23 +33,30 @@ body {
     outline: none;
 }
 
+.textoSalida {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 20px;
+    top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    color: #0A3871;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    text-align: left;
+}
+
 /* Modifica color del texto placeholder */
 
 textarea::placeholder { 
     color: #0A3871;  
 }
 
-.textoSalida {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-    color: #0A3871;
-    background: transparent;
-    border: none;
-    outline: none;
-}
 
 .Rectangle1 {
     display: flex;
@@ -216,3 +223,6 @@ textarea::placeholder {
     flex-grow: 1;
 }
 
+textarea {
+    resize: none;
+}
