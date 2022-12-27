@@ -1,12 +1,25 @@
 const textoEntrada = document.getElementById ("textoEntrada");
+const containertextoSalida = document.getElementById ("containertextoSalida");
 const botonEncriptar = document.getElementById ("botonEncriptar");
 const botonDesencriptar = document.getElementById ("botonDesencriptar");
+const vocales = {"a":"ai", "e":"enter", "i":"imes", "o":"ober", "u":"ufat"};
 
 function Encriptar () {
 
     let texto = textoEntrada.value;
-    document.getElementById("Frame5").style.display = "none";
-    console.log (texto);
+
+    if (texto == undefined || texto == "" || texto == null) {
+
+        alert ("Debe ingresar el texto primero para poder encriptar.");
+
+    } else {
+
+        document.getElementById("Frame5").style.display = "none";
+        let textoEncriptado = texto.replace(/[aeiou]/g, clave => vocales[clave]);
+        // textoSalida.innerHTML = textoEncriptado;
+        console.log (textoEncriptado);
+
+    }
 
 }
 
