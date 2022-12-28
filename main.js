@@ -6,6 +6,7 @@ const Frame5 = document.getElementById ("Frame5");
 const botonEncriptar = document.getElementById ("botonEncriptar");
 const botonDesencriptar = document.getElementById ("botonDesencriptar");
 const vocales = {"a":"ai", "e":"enter", "i":"imes", "o":"ober", "u":"ufat"};
+const textarea = document.createElement ("textarea");
 
 function RemoverDefault () {
 
@@ -27,7 +28,6 @@ function Encriptar () {
 
         RemoverDefault ()
         let textoEncriptado = texto.replace(/[aeiou]/g, clave => vocales[clave]);
-        const textarea = document.createElement ("textarea");
         textarea.value = textoEncriptado;
         textarea.autocomplete = false;
         textarea.spellcheck = false;

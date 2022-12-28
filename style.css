@@ -59,6 +59,7 @@ textarea::placeholder {
 
 textarea {
     resize: none;
+
 }
 
 /* Estilo para el rectangulo que contiene varios elementos como el muñeco, salida de texto y boton de copiar */
