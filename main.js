@@ -2,10 +2,18 @@ const textoEntrada = document.getElementById ("textoEntrada");
 const munieco = document.getElementById ("munieco");
 const Rectangle1_texto1 = document.getElementById ("Rectangle1_texto1");
 const Rectangle1_texto2 = document.getElementById ("Rectangle1_texto2");
-const rectangulo = document.getElementById ("Frame5");
+const Frame5 = document.getElementById ("Frame5");
 const botonEncriptar = document.getElementById ("botonEncriptar");
 const botonDesencriptar = document.getElementById ("botonDesencriptar");
 const vocales = {"a":"ai", "e":"enter", "i":"imes", "o":"ober", "u":"ufat"};
+
+function RemoverDefault () {
+
+    munieco.remove();
+    Rectangle1_texto1.remove();
+    Rectangle1_texto2.remove();
+
+}
 
 function Encriptar () {
 
@@ -17,19 +25,14 @@ function Encriptar () {
 
     } else {
 
+        RemoverDefault ()
         let textoEncriptado = texto.replace(/[aeiou]/g, clave => vocales[clave]);
-
-        munieco.remove();
-        Rectangle1_texto1.remove();
-        Rectangle1_texto2.remove();
-
-        const div = document.createElement ("div");
         const textarea = document.createElement ("textarea");
-
-        textarea.innerText = textoEncriptado;
-        div.innerHTML = `<textarea class="textoSalida" placeholder="Ingrese el texto aqui" autofocus></textarea>`;
-        rectangulo.append(div);
-        div.append(textarea);
+        textarea.value = textoEncriptado;
+        textarea.autocomplete = false;
+        textarea.spellcheck = false;
+        textarea.className = "textoSalida";
+        Frame5.append(textarea);
         console.log (textoEncriptado);
 
     }

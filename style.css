@@ -35,28 +35,33 @@ body {
 
 .textoSalida {
     position: absolute;
-    width: 350px;
-    height: 500px;
-    left: 20px;
-    top: 20px;
+    width: 375px;
+    height: 515px;
+    left: 10px;
+    top: 13px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 100%;
+    font-size: 24px;
+    line-height: 36px;
     color: #0A3871;
     background: transparent;
-    border: 1px solid black;
+    border: none;
     outline: none;
-    text-align: left;
+    text-align: center;
 }
 
-/* Modifica color del texto placeholder */
+/* Modifica color del texto placeholder y suprime visualmente la opcion de redimensionamiento */
 
 textarea::placeholder { 
     color: #0A3871;  
 }
 
+textarea {
+    resize: none;
+}
+
+/* Estilo para el rectangulo que contiene varios elementos como el muñeco, salida de texto y boton de copiar */
 
 .Rectangle1 {
     display: flex;
@@ -124,8 +129,10 @@ textarea::placeholder {
     top: 450px;
 }
 
+/* Texto de solo letras minusculas y sin acentos */
+
 .disclaimer {
-    width: 205px;
+    width: 250px;
     height: 18px;
     font-family: 'Inter';
     font-style: normal;
@@ -135,6 +142,8 @@ textarea::placeholder {
     color: #495057;
     opacity: 0.8;
 }
+
+/* Botonera de la izquierda (contenedor) */
 
 .Frame3 {
     display: flex;
@@ -148,6 +157,8 @@ textarea::placeholder {
     left: 140px;
     top: 500px;
 }
+
+/* Boton Encriptar */
 
 .btn_en {
     display: flex;
@@ -184,6 +195,8 @@ textarea::placeholder {
     order: 0;
     flex-grow: 1;
 }
+
+/* Boton Desencriptar */
 
 .btn_de {
     box-sizing: border-box;
@@ -223,6 +236,4 @@ textarea::placeholder {
     flex-grow: 1;
 }
 
-textarea {
-    resize: none;
-}
+/* Boton Copiar */
