@@ -59,8 +59,10 @@ textarea::placeholder {
 
 textarea {
     resize: none;
-
+    text-transform: lowercase;
 }
+
+
 
 /* Estilo para el rectangulo que contiene varios elementos como el muñeco, salida de texto y boton de copiar */
 
@@ -238,3 +240,33 @@ textarea {
 }
 
 /* Boton Copiar */
+
+.btn_co {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 352px;
+    height: 57px;
+    background: #FFFFFF;;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    left: 30px;
+    top: 467px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.btn_co:hover {
+    background: skyblue;
+    cursor: pointer;
+}

@@ -5,8 +5,9 @@ const Rectangle1_texto2 = document.getElementById ("Rectangle1_texto2");
 const Frame5 = document.getElementById ("Frame5");
 const botonEncriptar = document.getElementById ("botonEncriptar");
 const botonDesencriptar = document.getElementById ("botonDesencriptar");
-const vocales = {"a":"ai", "e":"enter", "i":"imes", "o":"ober", "u":"ufat"};
-const textarea = document.createElement ("textarea");
+const vocales = {"a":"ai", "e":"enter", "i":"imes", "o":"ober", "u":"ufat","á":"ai", "é":"enter", "í":"imes", "ó":"ober", "ú":"ufat","à":"ai", "è":"enter", "ì":"imes", "ò":"ober", "ù":"ufat"};
+const textarea = document.createElement ("textarea"); // Al crear este elemento fuera del scope de la funcion prevenimos la superposicion del texto.
+const botonCopiar = document.createElement ("button"); // Este boton llevara el texto encriptado/desencriptado al portapapeles.
 
 function RemoverDefault () {
 
@@ -16,25 +17,31 @@ function RemoverDefault () {
 
 }
 
+
+
 function Encriptar () {
 
     let texto = textoEntrada.value;
+    let textoMinusculas = texto.toLowerCase();
+    // ||
 
-    if (texto == undefined || texto == "" || texto == null) {
+    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
-        alert ("Debe ingresar el texto primero para poder encriptar.");
+        alert ("Ingresó valor numerico no admitido ó no hay texto para encriptar.");
+        window.location.reload();
 
     } else {
 
         RemoverDefault ()
-        let textoEncriptado = texto.replace(/[aeiou]/g, clave => vocales[clave]);
+        let textoEncriptado = textoMinusculas.replace(/[aeiouáéíóúàèìòù]/g, clave => vocales[clave]);
         textarea.value = textoEncriptado;
-        textarea.autocomplete = false;
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
         Frame5.append(textarea);
-        console.log (textoEncriptado);
-
+        botonCopiar.className = "btn_co";
+        botonCopiar.innerText = "Copiar";
+        Frame5.append(botonCopiar);
+        console.log("El texto convertido es " +textoEncriptado+ ".");
     }
 
 }
