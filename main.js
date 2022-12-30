@@ -40,6 +40,7 @@ function Encriptar () {
         botonCopiar.className = "btn_co";
         botonCopiar.innerText = "Copiar";
         Frame5.append(botonCopiar);
+        botonEncriptar.innerText = "Encriptación Exitosa!";
         // console.log("El texto convertido es " +textoEncriptado+ ".");
 
 

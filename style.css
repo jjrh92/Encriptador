@@ -7,6 +7,7 @@
 body {
     background-color: #F3F5FC;
 }
+
 /* Dimensiones del logo */
 
 .logo {
@@ -177,6 +178,13 @@ textarea {
     flex: none;
     order: 0;
     flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .btn_en:hover {
@@ -194,9 +202,6 @@ textarea {
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
 }
 
 /* Boton Desencriptar */
