@@ -259,7 +259,7 @@ textarea {
     top: 467px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -267,6 +267,6 @@ textarea {
 }
 
 .btn_co:hover {
-    background: skyblue;
+    background: lightcyan;
     cursor: pointer;
 }

@@ -23,16 +23,15 @@ function Encriptar () {
 
     let texto = textoEntrada.value;
     let textoMinusculas = texto.toLowerCase();
-    // ||
 
     if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
-        alert ("Ingresó valor numerico no admitido ó no hay texto para encriptar.");
+        alert ("No hay texto para encriptar o se ingresó un valor numerico.");
         window.location.reload();
 
     } else {
 
-        RemoverDefault ()
+        RemoverDefault ();
         let textoEncriptado = textoMinusculas.replace(/[aeiouáéíóúàèìòù]/g, clave => vocales[clave]);
         textarea.value = textoEncriptado;
         textarea.spellcheck = false;
@@ -41,7 +40,18 @@ function Encriptar () {
         botonCopiar.className = "btn_co";
         botonCopiar.innerText = "Copiar";
         Frame5.append(botonCopiar);
-        console.log("El texto convertido es " +textoEncriptado+ ".");
+        // console.log("El texto convertido es " +textoEncriptado+ ".");
+
+
+    botonCopiar.onclick = function () {
+
+        let textoCopiado = textoEncriptado;
+        navigator.clipboard.writeText (textoCopiado);
+        // console.log ("El texto copiado es " +textoEncriptado+ ".");
+        botonCopiar.innerText = "Texto copiado a portapapeles!";
+    }
+
+        
     }
 
 }
