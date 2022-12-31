@@ -175,9 +175,6 @@ textarea {
     height: 57px;
     background: #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -219,9 +216,13 @@ textarea {
     background: #EFF1FA;;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: navy;
 }
 
 .btn_de:hover {
@@ -264,7 +265,7 @@ textarea {
     top: 467px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;

@@ -17,8 +17,6 @@ function RemoverDefault () {
 
 }
 
-
-
 function Encriptar () {
 
     let texto = textoEntrada.value;
@@ -44,13 +42,13 @@ function Encriptar () {
         // console.log("El texto convertido es " +textoEncriptado+ ".");
 
 
-    botonCopiar.onclick = function () {
+        botonCopiar.onclick = function () {
 
         let textoCopiado = textoEncriptado;
         navigator.clipboard.writeText (textoCopiado);
         // console.log ("El texto copiado es " +textoEncriptado+ ".");
         botonCopiar.innerText = "Texto copiado a portapapeles!";
-    }
+        }
 
         
     }
@@ -60,6 +58,50 @@ function Encriptar () {
 botonEncriptar.onclick = () => {
 
     Encriptar();
+
+};
+
+function Desencriptar () {
+
+    let texto = textoEntrada.value;
+    let textoMinusculas = texto.toLowerCase();
+
+    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
+
+        alert ("No hay texto para desencriptar o se ingresó un valor numerico.");
+        window.location.reload();
+
+    } else {
+
+        RemoverDefault ();
+        // let textoDesencriptado = textoMinusculas.replace(/[aeiouáéíóúàèìòù]/g, clave => vocales[clave]);
+        textarea.value = textoDesencriptado;
+        textarea.spellcheck = false;
+        textarea.className = "textoSalida";
+        Frame5.append(textarea);
+        botonCopiar.className = "btn_co";
+        botonCopiar.innerText = "Copiar";
+        Frame5.append(botonCopiar);
+        botonDesencriptar.innerText = "Desencriptaciòn Exitosa!";
+        // console.log("El texto convertido es " +textoEncriptado+ ".");
+
+
+        botonCopiar.onclick = function () {
+
+        let textoCopiado = textoDesencriptado;
+        navigator.clipboard.writeText (textoCopiado);
+        // console.log ("El texto copiado es " +textoDesencriptado+ ".");
+        botonCopiar.innerText = "Texto copiado a portapapeles!";
+        }
+
+        
+    }
+    
+};
+
+botonDesencriptar.onclick = () => {
+
+    Desencriptar();
 
 };
 
