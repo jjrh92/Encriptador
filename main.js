@@ -64,7 +64,7 @@ function Desencriptar () {
     } else {
 
         RemoverDefault ();
-        let textoDesencriptado = textoMinusculas.replace(vocalesDesencriptar, /[aienterimesoberufat]/g);
+        let textoDesencriptado = textoMinusculas.replace (vocalesDesencriptar, /[aienterimesoberufat]/g);
         textarea.value = textoDesencriptado;
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
@@ -72,7 +72,7 @@ function Desencriptar () {
         botonCopiar.className = "btn_co";
         botonCopiar.innerText = "Copiar";
         Frame5.append(botonCopiar);
-        botonEncriptar.innerText = "Desencriptación Exitosa!";
+        botonDesencriptar.innerText = "Desencriptación Exitosa!";
 
 
         botonCopiar.onclick = function () {
@@ -87,16 +87,7 @@ function Desencriptar () {
 
 };
 
-botonDesencriptar.onclick = () => {
-
-    Desencriptar();
-
-};
-
-botonEncriptar.onclick = () => {
-
-    Encriptar();
-
-};
+botonEncriptar.addEventListener ("click", Encriptar);
+botonDesencriptar.addEventListener ("click", Desencriptar);
 
 // fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
