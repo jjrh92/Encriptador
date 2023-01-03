@@ -4,54 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador - Challenge #1</title>
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Challenge #1 - Encriptador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <header>
-       <a href="./index.html"><img title="Click aca para refrescar." class="logo" src="./img/logo.svg" alt="Logo de Alura LATAM"></a>
+        <a href="index.html"><img class="logo" src="./img/logo.svg" alt="Logo de Alura" title="Click en el logo para refrescar"></a>
     </header>
 
     <main>
 
         <div class="containertextoEntrada">
             <textarea id="textoEntrada" class="textoEntrada" placeholder="Ingrese el texto aqui." spellcheck="false" autofocus></textarea>
-        </div>
-
-        <div id="containertextoSalida" class="containertextoSalida">
-            <div id="Rectangle1" class="Rectangle1">
-                <div id="Frame5" class="Frame5">
-                    <img id="munieco" class="munieco" src="./img/munieco.svg" alt="Imagen de una persona con una lupa">
-                    <p id="Rectangle1_texto1" class="Rectangle1_texto1">Ningún Mensaje fue encontrado.</p>
-                    <p id="Rectangle1_texto2" class="Rectangle1_texto2">Ingresa el texto que desees encriptar o descencriptar.</p>
-                </div>
+            <div class="Frame1">
+                <img src="./img/exclamacion.svg" alt="signo de exclamacion">
+                <p class="disclaimer">Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="Frame3">
+                <button id="botonEncriptar" class="btn_en">
+                    <p class="btn_en_texto">Encriptar</p>
+                </button>
+                <button id="botonDesencriptar" class="btn_de">
+                    <p class="btn_de_texto">Desencriptar</p>
+                </button>
             </div>
         </div>
 
-        <div class="Frame1">
-            <img src="./img/exclamacion.svg" alt="signo de exclamacion">
-            <p class="disclaimer">Solo letras minúsculas y sin acentos.</p>
+        <div id="Rectangle1" class="Rectangle1">
+            <div id="Frame5" class="Frame5">
+                <img id="munieco" class="munieco" src="./img/munieco.svg" alt="Imagen de una persona con una lupa">
+                <p id="Rectangle1_texto1" class="Rectangle1_texto1">Ningún Mensaje fue encontrado.</p>
+                <p id="Rectangle1_texto2" class="Rectangle1_texto2">Ingresa el texto que desees encriptar o descencriptar.</p>
+            </div>
         </div>
 
-        <div class="Frame3">
-
-            <button id="botonEncriptar" class="btn_en">
-                <p class="btn_en_texto">Encriptar</p>
-            </button>
-
-            <button id="botonDesencriptar" class="btn_de">
-                <p class="btn_de_texto">Desencriptar</p>
-            </button>
-        </div>
 
     </main>
 
     <footer>
+        <div class="texto_footer">
+        <p class="texto_footer">Realizado por Julio Reyes para <a href="https://www.oracle.com/cl/education/oracle-next-education/">ONE</a>y <a href="https://www.aluracursos.com/">Alura LATAM</a>.</p>
+        </div>
+        <div class="iconos_footer">
+        <a href="https://www.linkedin.com/in/juliojesusreyes/" title="Conectemos en LinkedIn" target="_blank"><img src="https://i.pinimg.com/originals/ce/09/3c/ce093c7214ad357bb665cfd2f66a8b6b.png" class="linkedin" height="40px" width="40px"></a>
+        <a href="https://github.com/jjrh92/encriptador" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" class="github" title="Repositorio de este proyecto en GitHub" height="40px" width="40px"></a>
+        <a href="https://discordapp.com/users/125683846506086400" target="_blank"><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" title="Conectemos en Discord" class="discord" height="40px" width="40px"></a>
 
+    </div>
     </footer>
-
     <script src="main.js"></script>
 </body>
 </html>

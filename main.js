@@ -1,3 +1,5 @@
+// Inicio
+
 const textoEntrada = document.getElementById ("textoEntrada");
 const munieco = document.getElementById ("munieco");
 const Rectangle1_texto1 = document.getElementById ("Rectangle1_texto1");
@@ -89,3 +91,5 @@ function Desencriptar () {
 
 botonEncriptar.addEventListener ("click", Encriptar);
 botonDesencriptar.addEventListener ("click", Desencriptar);
+
+// Fin
