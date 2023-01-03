@@ -6,6 +6,7 @@
 
 body {
     background-color: #F3F5FC;
+    display: flex;
 }
 
 /* Dimensiones del logo */

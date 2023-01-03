@@ -5,8 +5,8 @@ const Rectangle1_texto2 = document.getElementById ("Rectangle1_texto2");
 const Frame5 = document.getElementById ("Frame5");
 const botonEncriptar = document.getElementById ("botonEncriptar");
 const botonDesencriptar = document.getElementById ("botonDesencriptar");
-const textarea = document.createElement ("textarea"); // Al crear este elemento fuera del scope de la funcion prevenimos la superposicion del texto.
-const botonCopiar = document.createElement ("button"); // Este boton llevara el texto encriptado/desencriptado al portapapeles.
+const textarea = document.createElement ("textarea");
+const botonCopiar = document.createElement ("button");
 
 function RemoverDefault () {
 
@@ -89,5 +89,3 @@ function Desencriptar () {
 
 botonEncriptar.addEventListener ("click", Encriptar);
 botonDesencriptar.addEventListener ("click", Desencriptar);
-
-// fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
