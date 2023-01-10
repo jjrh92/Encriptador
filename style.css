@@ -1,258 +1,55 @@
-/* Importando fuente Inter desde google fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Inicio body */
 
 body {
-    background-color: #E5E5E5;
+    font-family: Trebuchet MS;
+    background-color: #F3F5FC;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+/* Fin body */
+
+/* Inicio Header */
+
+.texto_header {
+    color: #0A3871;
+    font-weight: 500;
+}
+
+.texto_header:hover {
+    color: navy;
+    cursor: pointer;
 }
 
 .logo {
-    padding-left: 5.25rem;
-    padding-top: 2.5rem;
-    padding-bottom: 1rem;
+    animation: puff-in-center 2.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
-.logo:hover {
-    transform: skew(10deg);
+@keyframes puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+    }
 }
+  
 
-/* Estilos para el contenido de la pagina */
+/* Fin Header */
 
-.containertextoEntrada {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/* Inicio Contenedor Izquierda */
 
 .textoEntrada {
-    width: 45rem;
-    height: 25rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 150%;
-    color: #0A3871;
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-.textoSalida {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    height: 31.25rem;
-    color: #0A3871;
-    background: transparent;
-    border: none;
-    outline: none;
-    text-align: center;
-}
-
-.Rectangle1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 23.75rem;
-    height: 37.5rem;
-    background: #FFFFFF;
-    box-shadow: 1px 24px 32px -6px #2d4468;
-    border-radius: 2rem;
-    outline: none;
-}
-
-.Rectangle1_texto1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 120%;
-    text-align: center;
-    color: #343A40;
-}
-
-.Rectangle1_texto2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 150%;
-    text-align: center;
-    color: #495057;
-}
-
-.Frame5 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.Frame1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-    width: 21.875rem;
-}
-
-/* Texto de solo letras minusculas y sin acentos */
-
-.disclaimer {
-    width: 15rem;
-    height: 1.125rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 150%;
-    color: #495057;
-    opacity: 0.8;
-}
-
-/* Botonera de la izquierda (contenedor) */
-
-.Frame3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
-    padding: 0px;
-    gap: 1rem;
-    width: 42.5rem;
-    height: 4.1875;
-}
-
-/* Boton Encriptar */
-
-.btn_en {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    gap: 8px;
-    width: 352px;
-    height: 57px;
-    background: #0A3871;
-    border-radius: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.btn_en:hover {
-    background: #4657ee;
-    cursor: pointer;
-}
-
-.btn_en_texto {
-    width: 280px;
-    height: 19px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/* Boton Desencriptar */
-
-.btn_de {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    gap: 8px;
-    width: 352px;
-    height: 57px;
-    background: #EFF1FA;;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: navy;
-}
-
-.btn_de:hover {
-    background: #51b2f3;
-    cursor: pointer;
-}
-
-.btn_de_texto {
-    width: 280px;
-    height: 19px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #0A3871;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-}
-
-/* Boton Copiar */
-
-.btn_co {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    gap: 8px;
+    height: 24.3rem;
     width: 22rem;
-    height: 3.5625rem;
-    background: #FFFFFF;;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    font-size: 1.5rem;
+    line-height: 150%;
     color: #0A3871;
-}
-
-.btn_co:hover {
-    background: steelblue;
-    cursor: pointer;
-}
-
-/* Modifica color del texto placeholder y suprime visualmente la opcion de redimensionamiento */
-
-textarea::placeholder { 
-    color: #0A3871;  
+    background: transparent;
+    border: none;
+    outline: none;
 }
 
 textarea {
@@ -260,42 +57,149 @@ textarea {
     text-transform: lowercase;
 }
 
-/* Estilos para el footer */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+::placeholder {
+    color: #0A3871;
+    text-align: center;
 }
 
-.texto_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: Inter;
+.disclaimer {
+    color: #0A3871;
+    font-weight: 600;
+}
+
+.btn_en {
+    background: #0A3871;
+    border-radius: 24px;
     font-style: normal;
-    font-weight: 400;
+    line-height: 19px;
+    color: honeydew;
+    display: flex;
+    width: 10rem;
+    height: 2.6rem;
+}
+
+.btn_en:hover {
+    background: navy;
+    cursor: pointer;
+	animation: color-change-3x 4s linear infinite alternate both;
+}
+
+.btn_en_texto {
+    color: honeydew;
+}
+
+.btn_de {
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    line-height: 19px;
+    color: honeydew;
+    width: 10rem;
+    height: 2.6rem;
+}
+
+.btn_de:hover {
+    background: navy;
+    cursor: pointer;
+    animation: color-change-3x 4s linear infinite alternate both;
+}
+
+.btn_de_texto {
+    color: honeydew;
+}
+
+/* Inicio Contenedor Centro */
+/* Fin Contenedor Centro */
+
+/* Inicio Contenedor Derecha */
+
+.Rectangle1 {
+    height: 30.94rem;
+    width: 22rem;
+    background: whitesmoke;
+    box-shadow: 10px 10px 22px -6px #2d4468;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.Rectangle1_texto1 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 120%;
+    text-align: center;
     color: #0A3871;
 }
 
+.Rectangle1_texto2 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+    color: #0A3871;
+}
+
+.textoSalida {
+    height: 24rem;
+    width: 22rem;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #0A3871;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+
+.btn_co {
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    line-height: 19px;
+    color: honeydew;
+    width: 10rem;
+    height: 2.6rem;
+}
+
+.btn_co:hover {
+    background: navy;
+    cursor: pointer;
+    animation: color-change-3x 4s linear infinite alternate both;
+}
+
+.munieco {
+    width: 85%;
+    height: 85%;
+}
+
+/* Fin Contenedor Derecha */
+
+/* Inicio Footer */
+
 .iconos_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: .7rem;
+    height: 1.9rem;
+    width: 1.9rem;
 }
 
-.linkedin:hover {
-    transform: skew(-10deg);
+.discord {
+    animation: vibrate-1 1s linear 10 both;
 }
 
-.github:hover {
-    transform: skew(10deg);
+/* Fin Footer */
+
+/* Inicio Keyframes para animaciones */
+
+@keyframes color-change-3x {
+    0% {
+      background: navy;
+    }
+    50% {
+      background: #0A3871;
+    }
+    100% {
+      background: navy;
+    }
 }
 
-.discord:hover {
-    transform: skew(-15deg);
-}
-
+  
+/* Fin Keyframes para animaciones */

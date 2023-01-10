@@ -1,5 +1,6 @@
 // Inicio
 
+const logo = document.getElementById ("logo");
 const textoEntrada = document.getElementById ("textoEntrada");
 const munieco = document.getElementById ("munieco");
 const Rectangle1_texto1 = document.getElementById ("Rectangle1_texto1");
@@ -91,5 +92,17 @@ function Desencriptar () {
 
 botonEncriptar.addEventListener ("click", Encriptar);
 botonDesencriptar.addEventListener ("click", Desencriptar);
+
+window.addEventListener('DOMContentLoaded', () => {
+
+    logo.onmouseenter = () => {
+    logo.src = "logo2.svg"
+    };
+        
+    logo.onmouseleave = () => {
+        logo.src = "logo.svg"
+    };
+
+});
 
 // Fin
