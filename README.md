@@ -45,3 +45,7 @@ Desencripta nuestro mensaje secreto!
 -   Si el texto ingresado fuera en mayúsculas, se convierte automáticamente a minúsculas.
 -   No se aceptan números
 -   No permite encriptar / desencriptar si el textarea de captura se encuentra vacío.
+-   
+### ✔️  Changelog
+
+-   2.0 Se ha migrado a bootstrap mejorando estilos visuales y agregando animaciones.
