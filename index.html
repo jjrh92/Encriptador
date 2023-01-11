@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Challenge #1 - Encriptador</title>
+    <title>E n c r i p t a d o r</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -14,7 +14,7 @@
         <a href="index.html"><img id="logo" class="logo img-fluid ps-4" title="Refrescar la pagina" src="logo.svg"></a>
 
         <div class="container-fluid d-flex flex-row justify-content-center">
-            <a class="text-decoration-none" href="index.html"><p class="texto_header fs-1" title="Refrescar la pagina"> Encriptador</p></a>
+            <a class="text-decoration-none" href="index.html"><p class="texto_header fs-1" title="Refrescar la pagina">Encriptador</p></a>
         </div>
 
     </header>
@@ -26,7 +26,7 @@
 
                     <div class="containertextoEntrada d-flex flex-column justify-content-center align-items-center">
 
-                        <textarea id="textoEntrada" class="textoEntrada text-center" placeholder="Ingrese el texto aqui." spellcheck="false" autofocus></textarea>
+                        <textarea id="textoEntrada" class="textoEntrada text-center" placeholder="Ingrese el texto aqui." spellcheck="false" onChange="CambiarCarsInvalidos(this)" onKeyup="CambiarCarsInvalidos(this)" autofocus></textarea>
                         
                         <div class="Frame1 d-flex flex-row gap-2 align-items-center justify-content-center pt-2 pb-1">
                             
@@ -36,7 +36,7 @@
 
                         </div>
 
-                        <div class="Frame3 d-flex flex-row gap-1">
+                        <div class="Frame3 d-flex flex-row gap-1 pb-2">
 
                             <button id="botonEncriptar" class="btn_en d-flex flex-row justify-content-center align-items-center">
 
@@ -54,7 +54,6 @@
                 </div>
                 <div class="col-md-2">
                 </div>
-                <br>
                 <div class="col-md-5 d-flex justify-content-center">
 
                     <div id="Rectangle1" class="Rectangle1 d-flex flex-column justify-content-center align-items-center">
@@ -73,7 +72,7 @@
             </div>
         </div>
     </main>
-    <footer class="flex-row d-flex justify-content-center gap-2 pt-3 pb-1 mt-auto">
+    <footer class="flex-row d-flex justify-content-center gap-2 pt-3 pb-2 mt-auto">
         <a href="https://www.linkedin.com/in/juliojesusreyes/" title="Conectemos en LinkedIn" target="_blank"><img src="https://i.pinimg.com/originals/ce/09/3c/ce093c7214ad357bb665cfd2f66a8b6b.png" class="iconos_footer linkedin" height="25px" width="25px"></a>
         <a href="https://github.com/jjrh92/encriptador" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" class="iconos_footer github" title="Repositorio de este proyecto en GitHub" height="25px" width="25px"></a>
         <a href="https://discordapp.com/users/125683846506086400" target="_blank"><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" title="Conectemos en Discord" class="iconos_footer discord" height="25px" width="25px"></a>
@@ -81,6 +80,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
-    <br>
   </body>
 </html>

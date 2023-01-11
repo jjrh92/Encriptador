@@ -1,7 +1,7 @@
 /* Inicio body */
 
 body {
-    font-family: Trebuchet MS;
+    font-family: Tahoma;
     background-color: #F3F5FC;
 }
 
@@ -42,7 +42,7 @@ body {
 /* Inicio Contenedor Izquierda */
 
 .textoEntrada {
-    height: 24.3rem;
+    height: 23rem;
     width: 22rem;
     font-size: 1.5rem;
     line-height: 150%;
@@ -114,12 +114,17 @@ textarea {
 /* Inicio Contenedor Derecha */
 
 .Rectangle1 {
-    height: 30.94rem;
-    width: 22rem;
+    height: 29.94rem;
+    width: 20rem;
     background: whitesmoke;
     box-shadow: 10px 10px 22px -6px #2d4468;
     border-radius: 0.5rem;
     outline: none;
+}
+
+.Frame5 {
+    height: 29.94rem;
+    width: 20rem;
 }
 
 .Rectangle1_texto1 {
@@ -139,17 +144,17 @@ textarea {
 }
 
 .textoSalida {
-    height: 24rem;
-    width: 22rem;
+    height: 24.6rem;
+    width: 19rem;
     font-size: 1.5rem;
     line-height: 150%;
     color: #0A3871;
-    background: transparent;
+    background: none;
     border: none;
     outline: none;
     text-align: center;
+    text-transform: none;
 }
-
 
 .btn_co {
     background: #0A3871;

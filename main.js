@@ -24,16 +24,15 @@ function Encriptar () {
     let texto = textoEntrada.value;
     let textoMinusculas = texto.toLowerCase();
 
-    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
+    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas || textoMinusculas == (/[áéíóúàèìòù|°¬\^`=,.()&!#$%'¿?!¡*<>@-]/g)) {
 
-        alert ("No hay texto para encriptar o se ingresó un valor numerico.");
-        window.location.reload ();
+        alert ("No hay texto para encriptar.");
 
     } else {
 
         RemoverDefault ();
         let textoEncriptado = textoMinusculas.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
-        textarea.value = textoEncriptado;
+        textarea.value = 'El texto encriptado es: '+'"' +textoEncriptado+'".';
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
         Frame5.append (textarea);
@@ -61,14 +60,13 @@ function Desencriptar () {
 
     if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
-        alert ("No hay texto para desencriptar o se ingresó un valor numerico.");
-        window.location.reload();
+        alert ("No hay texto para desencriptar.");
 
     } else {
 
         RemoverDefault ();
         let textoDesencriptado = textoMinusculas.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-        textarea.value = textoDesencriptado;
+        textarea.value = 'El texto desencriptado es: '+'"' +textoDesencriptado+'".';
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
         Frame5.append (textarea);
@@ -104,5 +102,19 @@ window.addEventListener('DOMContentLoaded', () => {
     };
 
 });
+
+// Solamente se admite el abecedario en minusculas de la a hasta la z.
+// A excepcion de la coma, el punto y nueva linea (parrafo).
+
+function CambiarCarsInvalidos (caracter) {
+
+    const caracteresInvalidos = /[^a-z ,.\n]/gi; 
+  
+    if (caracteresInvalidos.test(caracter.value)) {
+
+        caracter.value = caracter.value.replace(caracteresInvalidos, "");
+
+    }
+};
 
 // Fin
