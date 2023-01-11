@@ -108,7 +108,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function CambiarCarsInvalidos (caracter) {
 
-    const caracteresInvalidos = /[^a-z ,.\n]/gi; 
+    const caracteresInvalidos = /[^a-z ,.ñ\n]/gi; 
   
     if (caracteresInvalidos.test(caracter.value)) {
 
