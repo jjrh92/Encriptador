@@ -42,7 +42,7 @@ body {
 /* Inicio Contenedor Izquierda */
 
 .textoEntrada {
-    height: 23rem;
+    height: 75vh;
     width: 22rem;
     font-size: 1.5rem;
     line-height: 150%;
@@ -114,7 +114,7 @@ textarea {
 /* Inicio Contenedor Derecha */
 
 .Rectangle1 {
-    height: 29.94rem;
+    height: 75vh;
     width: 20rem;
     background: whitesmoke;
     box-shadow: 10px 10px 22px -6px #2d4468;
