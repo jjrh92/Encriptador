@@ -1,6 +1,6 @@
 # Bienvenidos a mi proyecto!
 
-Hola! Mi nombre es **Julio Reyes**. Este proyecto trata de un **encriptador de texto** a continuación podrá conocer sus funcionalidades y características.
+Hola! Mi nombre es **Julio**. Este proyecto trata de un **encriptador de texto** a continuación podrá conocer sus funcionalidades y características.
 
 
 # Descripción
