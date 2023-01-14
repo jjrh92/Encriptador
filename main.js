@@ -24,7 +24,7 @@ function Encriptar () {
     let texto = textoEntrada.value;
     let textoMinusculas = texto.toLowerCase();
 
-    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas || textoMinusculas == (/[áéíóúàèìòù|°¬\^`=,.()&!#$%'¿?!¡*<>@-]/g)) {
+    if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
         alert ("No hay texto para encriptar.");
 
