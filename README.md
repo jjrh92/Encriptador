@@ -46,6 +46,13 @@ Desencripta nuestro mensaje secreto!
 -   No se aceptan números
 -   No permite encriptar / desencriptar si el textarea de captura se encuentra vacío.
 -   
+
+🏆 Badge Attained
+
+![image](https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png)
+
+
+
 ### ✔️  Changelog
 
 -   2.0 Se ha migrado a bootstrap mejorando estilos visuales y agregando animaciones.
