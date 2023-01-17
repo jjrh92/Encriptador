@@ -2,7 +2,6 @@
 
 Hola! Mi nombre es **Julio**. Este proyecto trata de un **encriptador de texto** a continuación podrá conocer sus funcionalidades y características.
 
-
 # Descripción
 
 Vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes con otras personas que sepan el secreto de la encriptación utilizada. Las **llaves** de encriptación son las siguientes:
@@ -51,16 +50,19 @@ Desencripta nuestro mensaje secreto!
 
 ![image](https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png)
 
-
-
 ### ✔️  Changelog
 
 -   2.0 Se ha migrado a bootstrap mejorando estilos visuales y agregando animaciones.
 
 ### ✔️  Screenshots
 
-![image](https://user-images.githubusercontent.com/48032098/212922847-9e8a1deb-1797-4c70-9d38-d4d7934e425d.png)
-![image](https://user-images.githubusercontent.com/48032098/212923392-967e6e3a-21f5-4bed-a422-55df4b8c0a1c.png)
-![image](https://user-images.githubusercontent.com/48032098/212923553-c80cb232-3a9b-4365-8ee2-3640bf9fd242.png)
+
+![mobile (1)](https://user-images.githubusercontent.com/48032098/212931329-d4d71ae8-5c9e-4699-ac62-e803fd7b31d3.png)
+![mobile](https://user-images.githubusercontent.com/48032098/212931341-e8d6dddb-0878-4151-88d1-2a3645bb61a5.png)
+![tabs7](https://user-images.githubusercontent.com/48032098/212931372-14d5fabe-a74a-4895-b8e9-bb36d5ba279a.png)
+![s21 ultra](https://user-images.githubusercontent.com/48032098/212931392-230494ca-2111-47c5-ae7e-c4fde5d2deea.png)
+![ipadpro11](https://user-images.githubusercontent.com/48032098/212931416-2e8893c1-8e25-4477-bd46-8900930547f2.png)
+![iphone12](https://user-images.githubusercontent.com/48032098/212931439-8e22d0e1-0a55-4c85-873a-2b6f7679fc12.png)
+
 
 
