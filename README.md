@@ -60,4 +60,7 @@ Desencripta nuestro mensaje secreto!
 ### ✔️  Screenshots
 
 ![image](https://user-images.githubusercontent.com/48032098/212922847-9e8a1deb-1797-4c70-9d38-d4d7934e425d.png)
+![image](https://user-images.githubusercontent.com/48032098/212923392-967e6e3a-21f5-4bed-a422-55df4b8c0a1c.png)
+![image](https://user-images.githubusercontent.com/48032098/212923553-c80cb232-3a9b-4365-8ee2-3640bf9fd242.png)
+
 
