@@ -60,7 +60,6 @@ Desencripta nuestro mensaje secreto!
 ![mobile (1)](https://user-images.githubusercontent.com/48032098/212931329-d4d71ae8-5c9e-4699-ac62-e803fd7b31d3.png)
 ![mobile](https://user-images.githubusercontent.com/48032098/212931341-e8d6dddb-0878-4151-88d1-2a3645bb61a5.png)
 ![tabs7](https://user-images.githubusercontent.com/48032098/212931372-14d5fabe-a74a-4895-b8e9-bb36d5ba279a.png)
-![s21 ultra](https://user-images.githubusercontent.com/48032098/212931392-230494ca-2111-47c5-ae7e-c4fde5d2deea.png)
 ![ipadpro11](https://user-images.githubusercontent.com/48032098/212931416-2e8893c1-8e25-4477-bd46-8900930547f2.png)
 ![iphone12](https://user-images.githubusercontent.com/48032098/212931439-8e22d0e1-0a55-4c85-873a-2b6f7679fc12.png)
 
