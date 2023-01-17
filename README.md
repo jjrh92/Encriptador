@@ -56,3 +56,10 @@ Desencripta nuestro mensaje secreto!
 ### ✔️  Changelog
 
 -   2.0 Se ha migrado a bootstrap mejorando estilos visuales y agregando animaciones.
+
+### ✔️  Screenshots
+
+![image](https://user-images.githubusercontent.com/48032098/212922847-9e8a1deb-1797-4c70-9d38-d4d7934e425d.png)
+
+![image](https://user-images.githubusercontent.com/48032098/212921836-2ba1f913-34da-405b-aec2-8d5d5f02d88f.png)
+
