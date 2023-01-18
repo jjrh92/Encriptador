@@ -44,7 +44,6 @@ Desencripta nuestro mensaje secreto!
 -   Si el texto ingresado fuera en mayúsculas, se convierte automáticamente a minúsculas.
 -   No se aceptan números
 -   No permite encriptar / desencriptar si el textarea de captura se encuentra vacío.
--   
 
 🏆 Badge Attained
 
