@@ -26,26 +26,26 @@ function Encriptar () {
 
     if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
-        alert ("No hay texto para encriptar.");
+        alert ("There is no text to encrypt.");
 
     } else {
 
         RemoverDefault ();
         let textoEncriptado = textoMinusculas.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
-        textarea.value = 'El texto encriptado es: '+'"' +textoEncriptado+'".';
+        textarea.value = 'The encrypted text is: '+'"' +textoEncriptado+'".';
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
         Frame5.append (textarea);
         botonCopiar.className = "btn_co";
-        botonCopiar.innerText = "Copiar";
+        botonCopiar.innerText = "Copy";
         Frame5.append (botonCopiar);
-        botonEncriptar.innerText = "Encriptación Exitosa!";
+        botonEncriptar.innerText = "Successful Encryption!";
 
         botonCopiar.onclick = function () {
             
             let textoCopiado = textoEncriptado;
             navigator.clipboard.writeText (textoCopiado);
-            botonCopiar.innerText = "Texto copiado a portapapeles!";
+            botonCopiar.innerText = "Text copied to clipboard!";
 
         }
 
@@ -60,27 +60,27 @@ function Desencriptar () {
 
     if (textoMinusculas == "" || textoMinusculas == +textoMinusculas) {
 
-        alert ("No hay texto para desencriptar.");
+        alert ("There is no text to decrypt.");
 
     } else {
 
         RemoverDefault ();
         let textoDesencriptado = textoMinusculas.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-        textarea.value = 'El texto desencriptado es: '+'"' +textoDesencriptado+'".';
+        textarea.value = 'The decrypted text is: '+'"' +textoDesencriptado+'".';
         textarea.spellcheck = false;
         textarea.className = "textoSalida";
         Frame5.append (textarea);
         botonCopiar.className = "btn_co";
-        botonCopiar.innerText = "Copiar";
+        botonCopiar.innerText = "Copy";
         Frame5.append (botonCopiar);
-        botonDesencriptar.innerText = "Desencriptación Exitosa!";
+        botonDesencriptar.innerText = "Successful Decryption!";
 
 
         botonCopiar.onclick = function () {
 
             let textoCopiado = textoDesencriptado;
             navigator.clipboard.writeText (textoCopiado);
-            botonCopiar.innerText = "Texto copiado a portapapeles!";
+            botonCopiar.innerText = "Text copied to clipboard!";
 
         }
 
