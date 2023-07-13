@@ -57,7 +57,7 @@ Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giph
 
 Instrucciones para instalar el proyecto localmente.
 
-1. Clone the repo
+Clone the repo
    ```sh
    git clone https://github.com/jjrh92/Encriptador.git
    ```
@@ -82,13 +82,6 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". - Si tienes una sugerencia para mejorar este proyecto, por favor forkea el repositorio y haz una pull request. Puedes tambien abrir un issue con el tag "mejora".
 
 Don't forget to give the project a star! Thanks again! - No olvides darle una estrella al proyecto! Gracias de nuevo!
-
-1. Fork the Project - Forkea el proyecto.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`) - Crea tu Rama mejora (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`) - Haz commit a tus cambios - (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`) - Haz push a la rama (`git push origin feature/AmazingFeature`) 
-5. Open a Pull Request - Abre un Pull Request
-
 
 <!-- CONTACT -->
 
