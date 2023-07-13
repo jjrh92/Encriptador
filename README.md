@@ -6,7 +6,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Encriptador)
 ![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Encriptador)
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -28,8 +27,6 @@
   </p>
 </div>
 
-
-
 <!-- ABOUT THE PROJECT -->
 
 <h1 align="center"> 
@@ -50,7 +47,6 @@ Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif
 Bootstrap, Vanilla JS.
 
 <!-- GETTING STARTED -->
-
 <h1 align="center"> 
 Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giphy.gif" width="30px"> Comenzando
 </h1>
@@ -62,9 +58,7 @@ Clone the repo
    git clone https://github.com/jjrh92/Encriptador.git
    ```
 
-
 <!-- USAGE EXAMPLES -->
-
 <h1 align="center"> 
 Usage <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2lvcWx2Ynpia3BjYnk3Yzlvdmw1cnBjdHI3cm5uY3QzenM1enNibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/igPDtkfSJZMFwE0LP8/giphy.gif" width="30px"> Uso
 </h1>
@@ -84,11 +78,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again! - No olvides darle una estrella al proyecto! Gracias de nuevo!
 
 <!-- CONTACT -->
-
 <h1 align="center"> 
 Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" width="30px"> Contacto
 </h1>
-
 
 [Via LinkedIn](https://linkedin.com/jjrh92)
 
@@ -97,7 +89,6 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 [Via E-Mail](mailto:admin@jjrh92.dev)
 
 [Via Telegram](https://t.me/jjrh92)
-
 
 <!-- ACKNOWLEDGMENTS -->
 <h1 align="center"> 
