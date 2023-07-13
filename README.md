@@ -47,9 +47,7 @@ Letter "u" is converted to "enter"  - La letra "e" es convertida para "ufat".
 Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
 </h1>
 
-Vanilla Javascript
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
+Bootstrap, Vanilla JS.
 
 <!-- GETTING STARTED -->
 
@@ -92,9 +90,6 @@ Don't forget to give the project a star! Thanks again! - No olvides darle una es
 5. Open a Pull Request - Abre un Pull Request
 
 
-
-
-
 <!-- CONTACT -->
 
 <h1 align="center"> 
@@ -112,8 +107,8 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXliemQ4NzVmdXRxc3FyM3RjN2F2NzQ5MmRwZnJxa2VrZDBncjhtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sa5tk2gi3G1MSmy1vY/giphy.gif" width="30px"> Agradecimientos
 </h1>
 
-* [Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
-* [Alura LATAM](https://www.aluracursos.com/)
+[Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
+[Alura LATAM](https://www.aluracursos.com/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/jjrh92/Encriptador/graphs/contributors
@@ -121,7 +116,3 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 [stars-url]: https://github.com/jjrh92/Encriptador/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jjrh92/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/jjrh92/Encriptador/issues
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
