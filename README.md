@@ -1,5 +1,11 @@
 <br />
 
+<div align="center">
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+</div>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -9,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jjrh92/Encriptador">
-    <img src="https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png" alt="Logo" width="150" height="150">
+    <img src="https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Welcome - Bienvenid@</h3>
@@ -112,8 +118,6 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 
 * [Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
 * [Alura LATAM](https://www.aluracursos.com/)
-* ![image](https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png)
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/jjrh92/repo_name/graphs/contributors
