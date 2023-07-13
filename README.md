@@ -97,10 +97,10 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 </h1>
 
 
- - [Via LinkedIn](https://linkedin.com/jjrh92)
- - [Via Github](https://github.com/jjrh92)
- - [Via E-Mail](mailto:admin@jjrh92.dev)
- - [Via Telegram](https://t.me/jjrh92)
+[Via LinkedIn](https://linkedin.com/jjrh92)
+[Via Github](https://github.com/jjrh92)
+[Via E-Mail](mailto:admin@jjrh92.dev)
+[Via Telegram](https://t.me/jjrh92)
 
 <!-- ACKNOWLEDGMENTS -->
 <h1 align="center"> 
@@ -108,6 +108,7 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 </h1>
 
 [Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
+
 [Alura LATAM](https://www.aluracursos.com/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
