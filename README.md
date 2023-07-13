@@ -47,8 +47,8 @@ Letter "u" is converted to "enter"  - La letra "e" es convertida para "ufat".
 Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
 </h1>
 
-* Vanilla Javascript
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+Vanilla Javascript
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
 <!-- GETTING STARTED -->
@@ -116,11 +116,11 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 * [Alura LATAM](https://www.aluracursos.com/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/jjrh92/repo_name/graphs/contributors
+[contributors-url]: https://github.com/jjrh92/Encriptador/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/jjrh92/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/jjrh92/repo_name/stargazers
+[stars-url]: https://github.com/jjrh92/Encriptador/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jjrh92/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/jjrh92/repo_name/issues
+[issues-url]: https://github.com/jjrh92/Encriptador/issues
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
