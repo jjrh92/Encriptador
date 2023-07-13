@@ -109,8 +109,8 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 [Alura LATAM](https://www.aluracursos.com/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/jjrh92/Encriptador/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/jjrh92/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/jjrh92/Encriptador/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jjrh92/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/jjrh92/Encriptador/graphs/contributors
+[stars-url]: https://github.com/jjrh92/Encriptador/stargazers
 [issues-url]: https://github.com/jjrh92/Encriptador/issues
