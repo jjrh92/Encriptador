@@ -77,7 +77,7 @@ Enjoy this app by using it to exchange encrypted messages with people around you
 Contributing <img src="https://media4.giphy.com/media/rkzUVAQe0zC52ActrJ/giphy.gif" width="30px"> Contribuir
 </h1>
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. - Las contribuciones son lo que hace la comunidad open source increible para aprender, inspirar, y crear, todas las contribuciones *son bienvenidas**. 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. - Las contribuciones son lo que hace la comunidad open source increible para aprender, inspirar, y crear, todas las contribuciones *son bienvenidas*. 
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". - Si tienes una sugerencia para mejorar este proyecto, por favor forkea el repositorio y haz una pull request. Puedes tambien abrir un issue con el tag "mejora".
 
