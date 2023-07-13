@@ -1,66 +1,129 @@
-# Bienvenidos a mi proyecto!
+<br />
 
-Hola! Mi nombre es **Julio**. Este proyecto trata de un **encriptador de texto** a continuación podrá conocer sus funcionalidades y características.
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-# Descripción
 
-Vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes con otras personas que sepan el secreto de la encriptación utilizada. Las **llaves** de encriptación son las siguientes:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jjrh92/Encriptador">
+    <img src="https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png" alt="Logo" width="80" height="80">
+  </a>
 
-**`La letra "e" es convertida para "enter"`  
-`La letra "i" es convertida para "imes"`  
-`La letra "a" es convertida para "ai"`  
-`La letra "o" es convertida para "ober"`  
-`La letra "u" es convertida para "ufat"`**
+<h3 align="center">Welcome - Bienvenid@</h3>
 
-## Requisitos
+  <p align="center">
+    Text Encrypter - Encriptador de Texto
+    <br />
+    <br />
+    <a href="https://jjrh92.github.io/Encriptador/">View Demo - Ver Demo</a>
+    ·
+    <a href="https://github.com/jjrh92/Encriptador/issues">Report Bug - Reportar Bug</a>
+    ·
+    <a href="https://github.com/jjrh92/Encriptador/issues">Request Feature - Pedir Feature</a>
+  </p>
+</div>
 
-- Debe funcionar solo con letras minúsculas  
-- No deben ser utilizados letras con acentos ni caracteres especiales  
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-Por ejemplo:  
-`"gato" => "gaitober"`  
-`gaitober" => "gato"`
 
--   La página debe tener campos para  
-    inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
--   El resultado debe ser mostrado en la pantalla.
+<!-- ABOUT THE PROJECT -->
 
-## Extras
+<h1 align="center"> 
+About The Project <img src="https://media2.giphy.com/media/4ZrRpqbSaWoyZYRoCd/giphy.gif" width="30px"> Acerca del Proyecto
+</h1>
 
-- Un botón que **copie** el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del **`ctrl+C`** o de la opción "copiar" del menú de las aplicaciones.
+Letter "e" is converted to "enter"  - La letra "e" es convertida para "enter".
+Letter "i" is converted to "enter"  - La letra "e" es convertida para "imes".
+Letter "a" is converted to "enter"  - La letra "e" es convertida para "ai".
+Letter "o" is converted to "enter"  - La letra "e" es convertida para "ober".
+Letter "u" is converted to "enter"  - La letra "e" es convertida para "ufat".
 
-## Mensaje secreto
 
-Desencripta nuestro mensaje secreto!
+<h1 align="center"> 
+Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
+</h1>
 
-> fenterlimescimesdaidenters poberr enternfrenterntair enterstenter
-> dentersaifimesober y haibenterrlober cobernclufatimesdober cobern
-> enterximestober!
+* Vanilla Javascript
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-### ✔️  Validaciones
 
--   Captura de texto únicamente en minúsculas
--   Si el texto ingresado fuera en mayúsculas, se convierte automáticamente a minúsculas.
--   No se aceptan números
--   No permite encriptar / desencriptar si el textarea de captura se encuentra vacío.
+<!-- GETTING STARTED -->
 
+<h1 align="center"> 
+Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giphy.gif" width="30px"> Comenzando
+</h1>
+
+Instrucciones para instalar el proyecto localmente.
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/jjrh92/Encriptador.git
+   ```
+
+
+<!-- USAGE EXAMPLES -->
+
+<h1 align="center"> 
+Usage <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2lvcWx2Ynpia3BjYnk3Yzlvdmw1cnBjdHI3cm5uY3QzenM1enNibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/igPDtkfSJZMFwE0LP8/giphy.gif" width="30px"> Uso
+</h1>
+
+Enjoy this app by using it to exchange encrypted messages with people around you. - Disfruta esta app intercambiando mensajes encriptados con gente a tu alrededor.
+
+
+<!-- CONTRIBUTING -->
+<h1 align="center"> 
+Contributing <img src="https://media4.giphy.com/media/rkzUVAQe0zC52ActrJ/giphy.gif" width="30px"> Contribuir
+</h1>
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. - Las contribuciones son lo que hace la comunidad open source increible para aprender, inspirar, y crear, todas las contribuciones *son bienvenidas**. 
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". - Si tienes una sugerencia para mejorar este proyecto, por favor forkea el repositorio y haz una pull request. Puedes tambien abrir un issue con el tag "mejora".
+
+Don't forget to give the project a star! Thanks again! - No olvides darle una estrella al proyecto! Gracias de nuevo!
+
+1. Fork the Project - Forkea el proyecto.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`) - Crea tu Rama mejora (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`) - Haz commit a tus cambios - (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`) - Haz push a la rama (`git push origin feature/AmazingFeature`) 
+5. Open a Pull Request - Abre un Pull Request
+
+
+
+
+
+<!-- CONTACT -->
+
+<h1 align="center"> 
+Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" width="30px"> Contacto
+</h1>
+
+
+ - [Via LinkedIn](https://linkedin.com/jjrh92)
+ - [Via Github](https://github.com/jjrh92)
+ - [Via E-Mail](mailto:admin@jjrh92.dev)
+ - [Via Telegram](https://t.me/jjrh92)
+
+<!-- ACKNOWLEDGMENTS -->
+<h1 align="center"> 
+Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXliemQ4NzVmdXRxc3FyM3RjN2F2NzQ5MmRwZnJxa2VrZDBncjhtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sa5tk2gi3G1MSmy1vY/giphy.gif" width="30px"> Agradecimientos
+</h1>
+
+* [Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
+* [Alura LATAM](https://www.aluracursos.com/)
 🏆 Badge Attained
 
 ![image](https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png)
 
-### ✔️  Changelog
 
--   2.0 Se ha migrado a bootstrap mejorando estilos visuales y agregando animaciones.
-
-### ✔️  Screenshots
-
-
-![mobile (1)](https://user-images.githubusercontent.com/48032098/212931329-d4d71ae8-5c9e-4699-ac62-e803fd7b31d3.png)
-![mobile](https://user-images.githubusercontent.com/48032098/212931341-e8d6dddb-0878-4151-88d1-2a3645bb61a5.png)
-![tabs7](https://user-images.githubusercontent.com/48032098/212931372-14d5fabe-a74a-4895-b8e9-bb36d5ba279a.png)
-![ipadpro11](https://user-images.githubusercontent.com/48032098/212931416-2e8893c1-8e25-4477-bd46-8900930547f2.png)
-![iphone12](https://user-images.githubusercontent.com/48032098/212931439-8e22d0e1-0a55-4c85-873a-2b6f7679fc12.png)
-
-
-
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/jjrh92/repo_name/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/jjrh92/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/jjrh92/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jjrh92/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/jjrh92/repo_name/issues
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
