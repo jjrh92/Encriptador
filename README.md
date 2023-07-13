@@ -1,7 +1,9 @@
 <br />
 
 <div align="center">
-  
+
+![GitHub contributors](https://img.shields.io/github/contributors/jjrh92/Encriptador)
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -55,7 +57,7 @@ Bootstrap, Vanilla JS.
 Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giphy.gif" width="30px"> Comenzando
 </h1>
 
-Instrucciones para instalar el proyecto localmente.
+Install the project locally - Instalar el proyecto localmente. 
 
 Clone the repo
    ```sh
