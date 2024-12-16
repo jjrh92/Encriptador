@@ -86,7 +86,7 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 
 [Via Github](https://github.com/jjrh92)
 
-[Via E-Mail](mailto:admin@jjrh92.dev)
+[Via E-Mail](mailto:contact@julioreyes.dev)
 
 [Via Telegram](https://t.me/jjrh92)
 
