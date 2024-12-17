@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![GitHub contributors](https://img.shields.io/github/contributors/jjrh92/Encriptador)
-![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Encriptador)
-![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Encriptador)
+![GitHub contributors](https://img.shields.io/github/contributors/jjrh92/Encrypter)
+![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Encrypter)
+![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Encrypter)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jjrh92/Encriptador">
+  <a href="https://github.com/jjrh92/Encrypter">
     <img src="https://user-images.githubusercontent.com/48032098/212504650-e1aed67c-db1a-45e1-aa47-df5bf4482da6.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -19,11 +19,11 @@
     Text Encrypter - Encriptador de Texto
     <br />
     <br />
-    <a href="https://jjrh92.github.io/Encriptador/">View Demo - Ver Demo</a>
+    <a href="https://jjrh92.github.io/Encrypter/">View Demo - Ver Demo</a>
     ·
-    <a href="https://github.com/jjrh92/Encriptador/issues">Report Bug - Reportar Bug</a>
+    <a href="https://github.com/jjrh92/Encrypter/issues">Report Bug - Reportar Bug</a>
     ·
-    <a href="https://github.com/jjrh92/Encriptador/issues">Request Feature - Pedir Feature</a>
+    <a href="https://github.com/jjrh92/Encrypter/issues">Request Feature - Pedir Feature</a>
   </p>
 </div>
 
@@ -55,7 +55,7 @@ Install the project locally - Instalar el proyecto localmente.
 
 Clone the repo
    ```sh
-   git clone https://github.com/jjrh92/Encriptador.git
+   git clone https://github.com/jjrh92/Encrypter.git
    ```
 
 <!-- USAGE EXAMPLES -->
